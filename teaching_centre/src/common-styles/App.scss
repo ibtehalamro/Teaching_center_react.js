@@ -1,0 +1,37 @@
+@import './colors.scss';
+@import './variables.scss';
+@import './form.scss';
+
+$body-font-size: 16px;
+$body-font-family: Arial, sans-serif;
+
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $body-font-size;
+  font-family: $body-font-family;
+  color: $body-text-color;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@import './componentStyles.scss';
